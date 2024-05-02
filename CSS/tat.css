@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap');
+  .header {
+    background-color: #030303;
+    color: #eb3b5a;
+    padding: 10px 0;
+    text-align: center;
+    /* height: 100px;*/
+    display: flex;
+    justify-content: space-between;
+  }
+  .header nav {
+    display: flex;
+  }
+  .header nav a {
+    color: #f7b731;
+    text-decoration: none;
+    padding: 30px 30px;
+    display: inline-block;
+  }
+  .header nav a:hover {
+    background-color: white;
+    color: #333;
+    height: 15px;
+  }
+  .nav-logo img{
+    padding: 10px 20px;
+    height: 100px;
+    width: 170px;
+  }
+  .bg-img {
+    background-image: url("../Images/maxim-hopman-52Kf36w124Y-unsplash.jpg");
+    height: 600px;
+    width: auto;
+    background-size: cover;
+    opacity: 0.7; /* Adjust the opacity for a subtle effect */
+}
+
+.content {
+    height: 200px;
+    padding: 50px 50px;
+    padding-bottom: 60px;
+    text-align: center;
+    color: #f7b731;
+}
+
+.content h1 {
+    font-size: 3.5rem; /* Adjust the font size for impact */
+    margin-bottom: 20px; /* Add spacing below the heading */
+}
+
+.content h4 {
+    font-size: 2rem; /* Adjust the font size for the subtitle */
+    margin-bottom: 30px; /* Add spacing below the subtitle */
+}
+
+.content button {
+    padding: 10px 20px; /* Add padding to the button */
+    border: 5px solid #030303;
+    color: #ffeaa7;
+    background-color: black;
+    font-size: 1.2rem; /* Adjust the font size for the button text */
+    cursor: pointer; /* Add a pointer cursor for interactivity */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.content button:hover {
+    background-color: #1a1a1a; /* Darken the button color on hover */
+}
+ /* About us starts from here */
+ .text {
+    width: auto;
+    color: white;
+    background-color: #030303;
+    font-family: cursive;
+    margin: 0;
+    padding: 20px; /* Add some padding for better readability */
+}
+
+.text h3 {
+    text-align: center;
+    color: #f7b731;
+    font-family: cursive;
+    margin: 0;
+    padding-bottom: 10px; /* Add spacing below the heading */
+}
+
+.text p {
+    line-height: 1.5; /* Adjust line height for better readability */
+}
+
+.work{
+    background-color: #030303;
+    width: 100%;
+    height: 800px;
+    margin:0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.work img{
+    margin: opx;
+    margin:0px;
+    width:400px;
+    height: 350px;
+    padding: 7px;
+    /* border: #030303 2px solid; */
+    display: inline-block;
+}
+/* Footer starts from here */
+.footer-box{
+    background-color: #030303;
+    display: flex;
+    color: aliceblue;
+    text-decoration: none;
+    padding:30px 30px;
+}
+
+.location ul{
+    color: #f7b731;
+    font-size: 20px;
+
+}
+.location ul li{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+.footer-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.location, .form {
+    flex: 1;
+    color: #f7b731;
+}
