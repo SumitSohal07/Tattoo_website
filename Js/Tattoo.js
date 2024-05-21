@@ -5,32 +5,32 @@ bookButton.addEventListener('click', function() {
 });
 
 
-// Get the form element and add a submit event listener
-const form = document.querySelector('form');
-form.addEventListener('submit', function(event) {
-  // Prevent the default form submission behavior
-  event.preventDefault();
+// // Get the form element and add a submit event listener
+// const form = document.querySelector('form');
+// form.addEventListener('submit', function(event) {
+//   // Prevent the default form submission behavior
+//   event.preventDefault();
 
-  // Get the form data
-  const formData = new FormData(form);
+//   // Get the form data
+//   const formData = new FormData(form);
 
-  // Send the form data to the server using AJAX
-  const xhr = new XMLHttpRequest();
-  xhr.open('POST', '/submit-your-inquiry');
-  xhr.send(formData);
+//   // Send the form data to the server using AJAX
+//   const xhr = new XMLHttpRequest();
+//   xhr.open('POST', '/submit-your-inquiry');
+//   xhr.send(formData);
 
-  // Show a success message to the user
-  alert('Your inquiry has been submitted successfully!');
+//   // Show a success message to the user
+//   alert('Your inquiry has been submitted successfully!');
 
-  // Clear the form fields
-  form.reset();
-});
-const newsletterForm = document.querySelector('.newsletter form');
-const emailInput = document.querySelector('.newsletter input[type="email"]');
-const submitButton = document.querySelector('.newsletter button[type="submit"]');
+//   // Clear the form fields
+//   form.reset();
+// });
+// const newsletterForm = document.querySelector('.newsletter form');
+// const emailInput = document.querySelector('.newsletter input[type="email"]');
+// const submitButton = document.querySelector('.newsletter button[type="submit"]');
 
-newsletterForm.addEventListener('submit', (event) => {
-  event.preventDefault();
+// newsletterForm.addEventListener('submit', (event) => {
+//   event.preventDefault();
 
   // Check if the email input is empty
   // if (emailInput.value === '') {
@@ -49,5 +49,5 @@ newsletterForm.addEventListener('submit', (event) => {
   // You can use fetch() or XMLHttpRequest() to send the data
 
   // Disable the submit button to prevent multiple submissions
-  submitButton.disabled = true;
-});
+//   submitButton.disabled = true;
+// });

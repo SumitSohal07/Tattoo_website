@@ -159,7 +159,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: #e0a333;
+    background-color:#f7b731;
   }
   
   .contact-info h3 {
@@ -176,7 +176,7 @@ body {
   form {
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
+    margin-top: 10px;
     justify-content: end;
     padding-left:150px;
   }

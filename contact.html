@@ -4,18 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../New folder (2)/CSS/contact.css">
+    <link rel="stylesheet" href="./styles/contact.css">
     <script src="https://kit.fontawesome.com/6993c4274f.js" crossorigin="anonymous"></script>
 </head>
 <div class="header">
     <div class="nav-logo">
-        <img src = "Images/logo-png.png">
+        <img src="./Assets/Images/logo-png.png">
     </div>
     <nav>
-      <a href="../New folder (2)/index.html">Home</a> 
-      <a href= "../New folder (2)/Aboutus.html">About Us</a>
-      <a href="../New folder (2)/portfolio.html">Portfolio</a>
-      <a href="../New folder (2)/contact.html">Contact Us</a>
+        <a href="../index.html">Home</a> 
+        <a href="./Aboutus.html">About Us</a>
+        <a href="./portfolio.html">Portfolio</a>
+        <a href="./contact.html">Contact Us</a>
     </nav>
   </div>    
   <main>
@@ -43,27 +43,33 @@
         <a href="https://www.instagram.com/yourpage" target="_blank"></a>
         <a href="https://twitter.com/yourpage" target="_blank"></a>
     </div>
-
     <div class="form">
-        <form action="/submit-booking" method="post">
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="3a2e287c-8531-461d-83b7-31d9ba506fc6">
             <label for="name">Name:</label><br>
             <input type="text" id="name" name="name" required><br>
-
+    
             <label for="date">Date:</label><br>
-            <input type="date" id="date" name="date" required><br>
-
-            <label for="time">Time:</label><br>
-            <input type="time" id="time" name="time" required><br>
-
+            <input type="date" id="date" name="date" required min="2022-05-21" max="2024-12-31"><br>
+    
+            <!-- <label for="time">Time:</label><br>
+            <input type="time" id="time" name="time" required><br> -->
+<!--     
             <label for="tattoo">Tattoo Design:</label><br>
-            <input type="file" id="tattoo" name="tattoo"><br>
-
+            <input type="file" id="tattoo" name="tattoo"><br> -->
+    
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+    
+            <label for="phone">Phone Number:</label><br>
+            <input type="tel" id="phone" name="phone" required><br>
+    
             <label for="message">Message:</label><br>
-            <textarea id="message" name="message" rows="4" required></textarea><br>
-
+            <textarea id="message" name="message" rows="2" required></textarea><br>
+    
             <input type="submit" value="Submit">
-          </form>
-    </div>
+        </form>
+    </div>      
 </div>
 </main>
 <footer>
@@ -109,4 +115,7 @@
         </div>
     </div>
 </footer>
+<script src=" https://smtpjs.com/v3/smtp.js"></script>
+<script src = "../New folder (2)/Js/contact.js"></script>
 </html>
+
