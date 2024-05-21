@@ -33,17 +33,17 @@ newsletterForm.addEventListener('submit', (event) => {
   event.preventDefault();
 
   // Check if the email input is empty
-  if (emailInput.value === '') {
-    alert('Please enter your email address.');
-    return;
-  }
+  // if (emailInput.value === '') {
+  //   alert('Please enter your email address.');
+  //   return;
+  // }
 
   // Check if the email input is valid
-  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-  if (!emailRegex.test(emailInput.value)) {
-    alert('Please enter a valid email address.');
-    return;
-  }
+  // const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  // if (!emailRegex.test(emailInput.value)) {
+  //   alert('Please enter a valid email address.');
+  //   return;
+  // }
 
   // Send the form data to the server
   // You can use fetch() or XMLHttpRequest() to send the data
