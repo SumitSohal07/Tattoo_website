@@ -1,7 +1,7 @@
 const bookButton = document.querySelector('button');
 bookButton.addEventListener('click', function() {
   // Redirect the user to the contact page
-  window.location.href = '../New folder (2)/contact.html';
+  window.location.href = "contact.html";
 });
 
 
