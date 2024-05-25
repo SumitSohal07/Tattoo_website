@@ -4,7 +4,7 @@ body {
   min-height: 100vh;
   margin: 0;
   font-family: Arial, sans-serif;
-  font-family: cursive;
+  /* font-family: cursive; */
 
 }
 main {
@@ -127,12 +127,16 @@ background-color: #030303;
   display: flex;
   flex-wrap: wrap;
 }
-.work1{
+/* .work1{
 padding-top: 30px;
-}
+} */
 
 .text H3 {
   text-decoration: underline;
+}
+#port-head h3{
+  margin: 0; /* Reset any default margins */
+  padding: 0; /* Reset any default paddings */
 }
 
 #port-head h3{
@@ -141,14 +145,13 @@ padding-top: 30px;
   text-decoration: underline;
   font-size: 35px;
   background-color: #030303;
-  margin: 0;
+  /* border-radius: 100px; */
   padding-bottom: 5px;
 }
 
 .work img{
   margin: 0px;
-  margin:0px;
-  width:400px;
+  width:386px;
   height: 350px;
   padding: 7px;
   border-radius: 5px;
@@ -324,6 +327,157 @@ form input[type="submit"]:hover {
 }
 
 /* ----------Mobile view starts from here--------------------- */
+@media (max-width: 1200px) {
+
+  body {
+    margin: 0;
+    font-family: cursive;
+    background-color: black;
+    width: 100%;
+  }
+
+  .header {
+    background-color: #030303;
+    text-align: center;
+    max-width: 100%;
+  }
+
+  nav {
+    display: block;
+    background-color: black;
+  }
+
+  .nav-logo img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  #port-head {
+    text-align: center;
+  }
+
+  .work {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    width: 100%;
+    height: 50vh; /* Set a specific height for the work section */
+    overflow: hidden; /* Hide overflow to ensure it doesn't exceed the height */
+  }
+
+  .work1 {
+    flex: 1 1 25%;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%; /* Make each work1 container fill the height of the work section */
+    overflow: hidden; /* Ensure images do not overflow the container */
+  }
+
+  .work1 img {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    width: auto;
+    border-radius: 10px;
+  }
+
+  .Social-Media a {
+    margin-left: 30px;
+    display: inline-block;
+  }
+
+  .social {
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer-box {
+    display: inline-block;
+  }
+
+  .copyright {
+    text-align: center;
+  }
+
+  footer {
+    background-color: #050505;
+    color: #f7b731;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+}
+
+
+@media screen and (max-width: 300px) {
+  body {
+    margin: 0;
+    font-family: cursive;
+    background-color: black;
+    width: 100%;
+  }
+
+  .header {
+    background-color: #030303;
+    text-align: center;
+    max-width: 100%;
+  }
+
+  nav {
+    display: block;
+    background-color: black;
+  }
+
+  .nav-logo img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  #port-head{
+    margin-top: 70px; 
+  }
+    .work1 {
+      width: 40%;
+      height: 40vh; /* or any other width that works for your design */
+      margin: 10px; /* add some margin to create a gap between images */
+      margin-left: 30px;
+    }
+    .work1 img {
+      width: 100%; /* make the image take up the full width of the container */
+      height: 40vh; /* maintain the aspect ratio of the image */
+      margin: 10px;
+      margin-top: -10px;
+    }
+    .Social-Media a {
+      margin-left: 30px;
+      display: inline-block;
+    }
+    .social {
+      display: flex;
+      justify-content: center;
+      display: inline-block;
+    }
+    .footer-box {
+        display: inline-block;
+      }
+    .copyright{
+      text-align: center;
+    }
+      footer {
+        display: inline-block;
+        background-color: #050505;
+        color:#f7b731;
+        padding: 2rem 0;
+        display: flex;
+        justify-content: center;
+        position: relative;
+      }
+    }
 @media screen and (max-width: 430px) {
   body {
     margin: 0;
@@ -443,7 +597,7 @@ form input[type="submit"]:hover {
     background-color: #030303;
   }
 
-  
+
   #port-head h3{
     margin-top: 90px; 
   }

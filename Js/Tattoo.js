@@ -3,6 +3,14 @@ bookButton.addEventListener('click', function() {
   // Redirect the user to the contact page
   window.location.href = "contact.html";
 });
+<script>
+    const navToggle = document.querySelector('.nav-toggle');
+    const nav = document.querySelector('.nav');
+
+    navToggle.addEventListener('click', () => {
+        nav.classList.toggle('nav-open');
+    });
+</script>
 
 
 // // Get the form element and add a submit event listener
