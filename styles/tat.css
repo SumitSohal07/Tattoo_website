@@ -11,7 +11,7 @@ main {
   flex: 1;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap'); */
 
 .header {
   background-color: #030303;
@@ -444,22 +444,26 @@ form input[type="submit"]:hover {
   
   #port-head {
     text-align: center;
-    margin-top: 470px;
+    margin-top: 230px;
   }
   
   .work {
+   
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin: 5px 0;
+    /* margin: 5px 0; */
     width: 100%;
     height: auto; /* Set a specific height for the work section */
     overflow: hidden; /* Hide overflow to ensure it doesn't exceed the height */
   }
   
+  #portfolio.work{
+    background-color: #e0a333;
+  }
   .work1 {
-    flex: 1 1 20%;
+    flex: 1 1 25%;
     /* margin: 5px; */
     display: flex;
     justify-content: center;
