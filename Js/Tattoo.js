@@ -1,15 +1,25 @@
-const bookButton = document.querySelector('button');
-bookButton.addEventListener('click', function() {
-  // Redirect the user to the contact page
+document.addEventListener('DOMContentLoaded', () => {
+  const bookButton = document.querySelector('button');
+  bookButton.addEventListener('click', function() {
+      // Redirect the user to the contact page
+      window.location.href = "contact.html";
+  });
+
+  const navToggle = document.querySelector('.nav-toggle');
+  const nav = document.querySelector('.nav');
+
+  navToggle.addEventListener('click', () => {
+      nav.classList.toggle('nav-open');
+  });
+});
+
+// Define the function that will be called when the "Book Now" button is clicked
+function redirectToContactPage() {
   window.location.href = "contact.html";
-});
+}
 
-const navToggle = document.querySelector('.nav-toggle');
-const nav = document.querySelector('.nav');
 
-navToggle.addEventListener('click', () => {
-  nav.classList.toggle('nav-open');
-});
+
 
 // Uncomment and use this part if needed in the future
 // const form = document.querySelector('form');
