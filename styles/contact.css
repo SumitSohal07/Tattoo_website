@@ -259,7 +259,8 @@ form input[type="submit"]:hover {
 @media screen and (max-width: 430px) {
   body {
     margin: 0;
-    font-family: cursive;
+    font-family: Arial, sans-serif;
+    /* font-family: cursive; */
     background-color: black;
     width: 100%;
   }

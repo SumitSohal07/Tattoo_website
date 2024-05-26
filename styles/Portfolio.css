@@ -289,7 +289,7 @@ footer {
     flex-direction: column;
     min-height: 100vh;
     margin: 0;
-    font-family: cursive, Arial, sans-serif;
+    font-family: Arial, sans-serif;
     width: 100%;
     background-color:#e0a333;
   }

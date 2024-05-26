@@ -96,7 +96,8 @@ html{
   height: 400px;
   color: white;
   background-color: #030303;
-  font-family: cursive;
+  font-family: Arial, sans-serif;
+  /* font-family: cursive; */
   margin: 0;
   padding: 20px; /* Add some padding for better readability */
 }
@@ -104,7 +105,8 @@ html{
 .text h3 {
   text-align: center;
   color: #f7b731;
-  font-family: cursive;
+  font-family: Arial, sans-serif;
+  /* font-family: cursive; */
   margin: 0;
   font-size: 35px;
   padding-bottom: 10px; /* Add spacing below the heading */
@@ -331,7 +333,8 @@ form input[type="submit"]:hover {
 
   body {
     margin: 0;
-    font-family: cursive;
+    font-family: Arial, sans-serif;
+    /* font-family: cursive; */
     background-color: black;
     width: 100%;
   }
@@ -417,7 +420,8 @@ form input[type="submit"]:hover {
 @media screen and (max-width: 480px) {
   body {
     margin: 0;
-    font-family: cursive;
+    font-family: Arial, sans-serif;
+    /* font-family: cursive; */
     background-color: black;
     width: 100%;
   }
@@ -551,7 +555,8 @@ form input[type="submit"]:hover {
 
       body {
         margin: 0;
-        font-family: cursive;
+        font-family: Arial, sans-serif;
+        /* font-family: cursive; */
         background-color: black;
         width: 100%;
       }
@@ -640,7 +645,7 @@ form input[type="submit"]:hover {
     min-height: 100vh;
     margin: 0;
     font-family: Arial, sans-serif;
-    font-family: cursive;
+    /* font-family: cursive; */
     width: 100%;
     background-color: #030303;
   }
